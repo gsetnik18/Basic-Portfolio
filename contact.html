@@ -2,33 +2,48 @@
 
 <html lang="en">
 
-    <head>
-        <title>Gregory's Introduction</title>
-        <link rel="stylesheet" type="text/css" href="assets\css\styles.css">
+<head>
+    <title>Gregory's Introduction</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\styles.css">
+</head>
+<!--Had a lot of trouble centering everything, will inquire during office hours-->
+<body>
+    <header>
+        <div class="headercontainer">
+            <h1 class="nav-left">Gregory Setnik</h1>
 
-    </head>
-    
-    <body>
+            <nav class="nav-right">
+                <a href="index.html">About Me</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+            </nav>
+        </div>
+    </header>
+    </nav>
+    <div class="middleofpage">
+        <div class="maincontentarea">
+            <h2>Contact</h2>
 
-    <h1>Gregory Setnik</h1>
+            <div id="form" contenteditable="true">
+                <form action="/action.php" id="messageform">
+                    Name <br>
+                    <input type="text" name="name" placeholder="Your name">
+                    <br>
+                    Email <br>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+                    <br> <br>
+                    Message <br>
+                    <textarea id="textarea" maxlength="1000" cols="50" rows="4"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
+        <div class="footer">
+            <p>Copyright 2019</p>
+        </div>
 
-<div>
-    <h2>Contact</h2>
-
-    <hr>
-
-    <form action="/action.php">
-    Name <br>
-    <input type="text" name="name" placeholder="Your name">
-    <br>
-    Email <br>
-    <input type="text" name="email" placeholder="example@gmail.com">
-    <br> <br>
-    Message <br>
-    <textarea id="textarea" maxlength="1000" height="150px" width="700px"></textarea>
-
-    </form>
-
-    </body>
+</body>
 </div>
+
 </html>
